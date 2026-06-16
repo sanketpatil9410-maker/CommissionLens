@@ -2,9 +2,13 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import os
+import sys
 import joblib
 import shap
 import matplotlib.pyplot as plt
+
+# Add parent directory to path to allow importing from src/
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # Disclaimer
 st.set_page_config(page_title="CommissionLens", layout="wide")
