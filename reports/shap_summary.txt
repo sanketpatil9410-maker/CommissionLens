@@ -1,0 +1,15 @@
+SHAP Explainability Summary
+===========================
+
+Top 5 Features Influencing Commission Justification:
+1. rolling_volatility_4q
+2. beta_8q
+3. log_aum
+4. rolling_3q_return
+5. regular_expense_ratio
+
+Interpretation:
+- Features with higher SHAP values push the model to predict 'Commission Justified' (1).
+- Features with lower SHAP values push the model to predict 'Not Justified' (0).
+- The summary plot shows how high and low values of these features affect the output.
+- This is useful for understanding the exact drivers behind mutual fund performance metrics.

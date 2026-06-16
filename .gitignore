@@ -1,0 +1,50 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Data and models
+commissionlens/data/raw/*
+!commissionlens/data/raw/.gitkeep
+
+# Ignore all processed data EXCEPT the final model_ready_data.csv needed for Streamlit
+commissionlens/data/processed/*
+!commissionlens/data/processed/.gitkeep
+!commissionlens/data/processed/model_ready_data.csv
+
+# Allow models to be tracked so Streamlit can load them
+# commissionlens/models/*.pkl
+
+# Streamlit
+.streamlit/

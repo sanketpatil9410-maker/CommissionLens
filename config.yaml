@@ -1,0 +1,17 @@
+project:
+  name: "CommissionLens"
+  description: "Commission-Adjusted Alpha Prediction in Indian Mutual Funds"
+
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  sample_dir: "data/sample"
+  results_file: "reports/model_results.csv"
+  sip_results_file: "reports/sip_backtest_results.csv"
+  shap_summary_file: "reports/shap_summary.txt"
+  figures_dir: "reports/figures"
+
+model:
+  best_regression_path: "models/best_regression_model.pkl"
+  best_classification_path: "models/best_classification_model.pkl"
+  random_state: 42
