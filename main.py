@@ -26,7 +26,7 @@ def main():
     print("\n--- Step 1: Data Generation ---")
     sample_data_path = "data/sample/synthetic_funds_data.csv"
     if not os.path.exists(sample_data_path):
-        generate_sample_data(output_path=sample_data_path, n_funds=50, years=5)
+        generate_sample_data(output_path=sample_data_path, n_funds=250, years=5)
     else:
         print(f"Sample data already exists at {sample_data_path}")
         
