@@ -94,7 +94,6 @@ def train_models(input_path: str, output_dir: str):
     # Classification Models
     # ---------------------------
     clf_models = {
-        'Logistic Regression': Pipeline([('scaler', StandardScaler()), ('model', LogisticRegression(random_state=42, max_iter=1000))]),
         'Random Forest': Pipeline([('scaler', StandardScaler()), ('model', RandomForestClassifier(n_estimators=100, random_state=42))]),
         'XGBoost': Pipeline([('scaler', StandardScaler()), ('model', XGBClassifier(n_estimators=100, learning_rate=0.1, random_state=42, eval_metric='logloss'))])
     }

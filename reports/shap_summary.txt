@@ -2,11 +2,11 @@ SHAP Explainability Summary
 ===========================
 
 Top 5 Features Influencing Commission Justification:
-1. rolling_volatility_4q
-2. beta_8q
-3. log_aum
-4. rolling_3q_return
-5. regular_expense_ratio
+1. beta_8q
+2. rolling_volatility_8q
+3. rolling_4q_return
+4. rolling_volatility_4q
+5. rolling_alpha_4q
 
 Interpretation:
 - Features with higher SHAP values push the model to predict 'Commission Justified' (1).

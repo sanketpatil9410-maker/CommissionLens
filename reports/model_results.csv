@@ -2,9 +2,9 @@ Task,Metric,Value
 Regression,RMSE,0.02563398086172748
 Regression,MAE,0.0201130696876655
 Regression,R2,-0.5751868606074058
-Classification,Accuracy,0.374
-Classification,Precision,0.332579185520362
-Classification,Recall,0.8909090909090909
-Classification,F1 Score,0.4843492586490939
-Classification,AUC-ROC,0.5034644957033017
-Classification,Precision at Top Decile,0.34
+Classification,Accuracy,0.646
+Classification,Precision,0.42105263157894735
+Classification,Recall,0.19393939393939394
+Classification,F1 Score,0.26556016597510373
+Classification,AUC-ROC,0.5733604703753958
+Classification,Precision at Top Decile,0.44
